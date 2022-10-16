@@ -12,7 +12,7 @@ config :geophx, GeophxWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: GeophxWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Geophx.PubSub,
-  live_view: [signing_salt: "KkbbHyRB"]
+  live_view: [signing_salt: "N5pTPXn2"]
 
 # Configures the mailer
 #

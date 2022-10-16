@@ -13,7 +13,7 @@ config :geophx, GeophxWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "/MiVJZte5NykVFB8tp43FcTIBUgD3E8iy71Rh/w3gfeaOW69QKF6l39h633Fj/h5",
+  secret_key_base: "Iy+EZBMeJQLHTE3TbW/AEKuHYwXr/v0A2oI1YehHRb2Y+TLEgiKlgf/jAUlyxfOe",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}

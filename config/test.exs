@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :geophx, GeophxWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "CTmDrfSoGubOtXR5iOJZGti1LIsbDMHqKPMjwqKC6ltHhAwzXCMYxC67BIUbf8bm",
+  secret_key_base: "lxon/1rQ/sgs7KMaudIVPkWEGtsrNMlJNaQrP2JFjdxMmUweiEnWoW+U0auQbXLi",
   server: false
 
 # In test we don't send emails.

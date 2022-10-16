@@ -7,7 +7,7 @@ defmodule GeophxWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_geophx_key",
-    signing_salt: "+84L6sz4"
+    signing_salt: "CHsYasoJ"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
